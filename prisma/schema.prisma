@@ -1,0 +1,266 @@
+// Revryze Sales Training — Prisma Schema
+// Generator: Prisma Client JS
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// Auth & Users
+// ============================================
+
+enum Role {
+  REP
+  MANAGER
+  ADMIN
+}
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  name          String?
+  image         String?
+  role          Role     @default(REP)
+  hideFromLeaderboard Boolean @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  lastActiveAt  DateTime @default(now())
+
+  accounts           Account[]
+  sessions           Session[]
+  moduleProgress     ModuleProgress[]
+  quizAttempts       QuizAttempt[]
+  roleplaySessions   RoleplaySession[]
+  achievements       Achievement[]
+  loginDays          LoginDay[]
+
+  @@index([role])
+  @@index([lastActiveAt])
+}
+
+// NextAuth adapter tables
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ============================================
+// Modules & Quizzes
+// ============================================
+
+model Module {
+  id              String   @id @default(cuid())
+  orderIndex      Int      @unique
+  slug            String   @unique
+  title           String
+  summary         String
+  contentMarkdown String   @db.Text
+  isFinal         Boolean  @default(false)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  progress   ModuleProgress[]
+  questions  QuizQuestion[]
+  attempts   QuizAttempt[]
+
+  @@index([orderIndex])
+}
+
+model ModuleProgress {
+  id          String    @id @default(cuid())
+  userId      String
+  moduleId    String
+  startedAt   DateTime  @default(now())
+  readAt      DateTime?
+  completedAt DateTime?
+  quizScore   Int?      // last passing score (out of totalQuestions), null if never passed
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  module Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, moduleId])
+  @@index([userId])
+  @@index([moduleId])
+  @@index([completedAt])
+}
+
+model QuizQuestion {
+  id           String   @id @default(cuid())
+  moduleId     String
+  orderIndex   Int
+  prompt       String   @db.Text
+  choicesJson  Json     // string[] — 4 options
+  correctIndex Int
+  explanation  String   @db.Text
+
+  module Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@unique([moduleId, orderIndex])
+  @@index([moduleId])
+}
+
+model QuizAttempt {
+  id             String   @id @default(cuid())
+  userId         String
+  moduleId       String
+  score          Int
+  totalQuestions Int
+  passed         Boolean
+  answersJson    Json     // { questionId, selectedIndex, correct }[]
+  createdAt      DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  module Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([moduleId])
+  @@index([userId, moduleId])
+  @@index([createdAt])
+}
+
+// ============================================
+// Roleplay
+// ============================================
+
+enum RoleplayStatus {
+  IN_PROGRESS
+  WON
+  LOST
+  ABANDONED
+}
+
+enum RoleplayMessageRole {
+  REP
+  LEAD
+  SYSTEM
+}
+
+model RoleplaySession {
+  id             String          @id @default(cuid())
+  userId         String
+  archetypeSlug  String
+  scenarioJson   Json            // generated per-session details (name, age, city, etc.)
+  status         RoleplayStatus  @default(IN_PROGRESS)
+  turnCount      Int             @default(0)
+  startedAt      DateTime        @default(now())
+  endedAt        DateTime?
+
+  user        User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messages    RoleplayMessage[]
+  evaluation  RoleplayEvaluation?
+
+  @@index([userId])
+  @@index([archetypeSlug])
+  @@index([status])
+  @@index([userId, status])
+  @@index([startedAt])
+}
+
+model RoleplayMessage {
+  id         String              @id @default(cuid())
+  sessionId  String
+  role       RoleplayMessageRole
+  content    String              @db.Text
+  orderIndex Int
+  createdAt  DateTime            @default(now())
+
+  session RoleplaySession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@unique([sessionId, orderIndex])
+  @@index([sessionId])
+}
+
+model RoleplayEvaluation {
+  id                       String   @id @default(cuid())
+  sessionId                String   @unique
+  driveScoresJson          Json     // { D: {rating, reason}, R: {...}, ... }
+  bannedPhrasesUsedJson    Json     // { phrase, quote }[]
+  objectionBehindObjection Boolean
+  objectionEvidence        String?  @db.Text
+  overallPass              Boolean
+  feedbackMarkdown         String   @db.Text
+  createdAt                DateTime @default(now())
+
+  session RoleplaySession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@index([overallPass])
+}
+
+// ============================================
+// Achievements & Streaks
+// ============================================
+
+model Achievement {
+  id           String   @id @default(cuid())
+  userId       String
+  slug         String
+  earnedAt     DateTime @default(now())
+  metadataJson Json?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, slug])
+  @@index([userId])
+  @@index([slug])
+  @@index([earnedAt])
+}
+
+model LoginDay {
+  id     String   @id @default(cuid())
+  userId String
+  day    DateTime @db.Date
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, day])
+  @@index([userId])
+}
+
+// ============================================
+// Rate limiting (sliding window, Postgres-backed)
+// ============================================
+
+model RateLimitHit {
+  id        String   @id @default(cuid())
+  bucket    String   // e.g. "roleplay:<userId>", "signin:<ip>"
+  createdAt DateTime @default(now())
+
+  @@index([bucket, createdAt])
+}

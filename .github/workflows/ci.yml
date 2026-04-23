@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify:
+    name: Typecheck, Lint, Build
+    runs-on: ubuntu-latest
+    env:
+      # Required for `prisma generate` during postinstall; not used for network calls.
+      DATABASE_URL: 'postgresql://ci:ci@localhost:5432/ci?schema=public'
+      NEXTAUTH_SECRET: 'ci-dummy-secret-ci-dummy-secret-ci-dummy'
+      NEXTAUTH_URL: 'http://localhost:3000'
+      GOOGLE_CLIENT_ID: 'ci-dummy'
+      GOOGLE_CLIENT_SECRET: 'ci-dummy'
+      ANTHROPIC_API_KEY: 'ci-dummy'
+      SUPER_ADMIN_EMAILS: 'ci@revryze.com'
+      ALLOWED_EMAIL_DOMAIN: 'revryze.com'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Prisma generate
+        run: pnpm prisma generate
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Format check
+        run: pnpm format:check
+
+      - name: Build
+        run: pnpm build

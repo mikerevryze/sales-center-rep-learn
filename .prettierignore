@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+dist
+build
+.turbo
+coverage
+pnpm-lock.yaml
+prisma/migrations
+.vercel
+.env*
+public
