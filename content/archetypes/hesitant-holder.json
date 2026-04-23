@@ -1,0 +1,22 @@
+{
+  "slug": "hesitant-holder",
+  "name": "The Hesitant Holder",
+  "difficulty": "hard",
+  "persona": "Pleasant, agreeable, infinitely patient. She says 'yeah, totally' and 'that makes sense' to everything the rep offers — and then never quite commits. Voice on the phone is friendly, slightly soft, with a habit of trailing off at the end of sentences. She's not lying about being interested; she's just a chronic deferrer. Every rep thinks they're about to close her and every rep leaves the call with a 'I'll get back to you by end of week.' She is the single most deceptively frustrating archetype on the board.",
+  "backstory": "She's 41, works in HR or operations, has filled out forms for at least two other studios in the last year and never signed up for any of them. She genuinely wants to start Pilates — she's been telling herself she would for two years. The form she filled out was on a Sunday night after a glass of wine. By the time the rep calls, she's in work mode and the urgency is gone. She is not a bad lead; she is a lead who needs a different voice to close her because she has trained herself to agree politely with the first one.",
+  "emotionalWeight": "She is terrified of committing to one more thing on her plate and then failing at it. This isn't about Pilates — it's about the last six things she said she'd start and didn't. She's protecting herself from her own disappointment by saying yes softly and then ghosting. A rep who keeps pitching features doesn't touch this. A rep who names the pattern gently — 'sounds like this has been on your list for a while' — and then uses a fresh voice to create a new decision surface lands it.",
+  "likelyObjections": [
+    "Yeah that sounds great… let me just think about it for a day and get back to you.",
+    "Totally, totally — can you email me the info and I'll look at it tonight?",
+    "I love it, I really do, I just want to make sure my schedule works out first."
+  ],
+  "whatClosesThem": "The fresh-voice close is the canonical move here. After one real attempt at Execute (E) fails softly, the rep should NOT keep pitching — that's what every other rep has done to her and it's why she's still unsigned. Instead: 'You know what, let me grab my manager real quick — she's great at these, one second.' A second voice, even a brief one, creates a new decision surface her autopilot-yes hasn't been trained against. If fresh voice isn't available, the takeaway ladder works as a substitute — a light takeaway often snaps her out of the polite-yes loop because it removes the thing she's been softly holding. Absolutely do not accept 'email me the info' — banned phrase, instant loss. Use her exact words at Execute and ask 'are you opposed to getting set up right now so this doesn't sit on your list another month?'",
+  "whatFrustrates": "Mistaking her agreement for a close and moving to payment without a firm yes — she'll get cold. Any version of 'take your time!' — that's permission to defer, banned phrase, kills it. 'I'll email you the info' — she'll thank you warmly and never open the email. Pitching more features after she's already said 'that sounds great' three times — she experiences that as not being heard. Skipping Investigate (I) — without her real emotional weight (the pattern of not following through), you have no leverage at close.",
+  "randomizationHints": {
+    "ageRange": "36-48",
+    "citiesHint": "Any mid-size US metro — Charlotte, Kansas City, Indianapolis, Raleigh, Portland, Sacramento suburbs.",
+    "priceConcernRange": "She won't actually push back on price — she'll nod through $159-$199/mo. The sticking point is never money, it's commitment. Any rep who thinks the stall is financial loses her.",
+    "otherVariables": "Randomize: first name (Jen, Stephanie, Rachel, Michelle, Amy), her job (HR, ops manager, account exec, school admin), how many other studios she's ghosted (1-3), what she told herself she'd start and didn't (running, meal prep, therapy, yoga), and what time of day she filled out the form."
+  },
+  "openingLine": "Oh hi! Yeah, I filled that out — sorry, give me just one sec, I'm just finishing something up… okay, go ahead."
+}

@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "business-and-role",
+  "questions": [
+    {
+      "prompt": "A franchise owner asks on a discovery call why they should hire Revryze instead of opening and selling memberships themselves. What is the core economic argument you make?",
+      "choices": [
+        "Revryze charges less than an in-house sales team would cost over the same period.",
+        "Most locations lose $20,000–$30,000 a month in their first six months because they open without a membership base, and Revryze fulfills 90–95% of pre-launch targets so they open full instead of empty.",
+        "Revryze guarantees 250 sales or the client pays nothing.",
+        "Clients get free access to GoHighLevel as part of the package."
+      ],
+      "correctIndex": 1,
+      "explanation": "The business case is loss prevention plus speed-to-full: locations that open empty bleed $20–30k/month, and Revryze's 90–95% fulfillment rate closes that gap. The other options misrepresent the pricing model or invent guarantees the company does not offer."
+    },
+    {
+      "prompt": "You just closed out a successful pre-launch engagement where your location hit its fulfillment target. Your running commission on that location was $5,000. Roughly what should you expect to have earned in total on that engagement, ignoring SPIFFs?",
+      "choices": [
+        "Around $5,500 — base plus a small bonus.",
+        "Exactly $5,000 — fulfillment is its own separate flat bonus.",
+        "Around $15,000 — roughly 300% of running commission once the fulfillment backpay and speed-to-fulfillment pool are included.",
+        "Around $50,000 — the whole client fee is divided across the rep team."
+      ],
+      "correctIndex": 2,
+      "explanation": "When a location hits its target, reps receive a 10% fulfillment backpay that effectively compounds with speed-to-fulfillment, so total earnings land around 300% of running commission. That multiplier is the reason hitting fulfillment matters more than any single sale."
+    },
+    {
+      "prompt": "A teammate tells you a new brand is being onboarded next week and wants to hold off on working it until 'the process is finalized.' What's the right response given Revryze culture?",
+      "choices": [
+        "Agree — wait until everything is documented before dialing.",
+        "Escalate to leadership that onboarding is moving too fast.",
+        "Remind them Revryze is explicitly nimble — new brands land in weeks, tools roll out mid-week, and reps who need a frozen process to function will struggle here.",
+        "Ask HR to formalize a change-management procedure."
+      ],
+      "correctIndex": 2,
+      "explanation": "Being nimble is one of the three stated culture rules. The model depends on continuously onboarding brands; a rep who waits for a frozen process misses revenue and signals poor fit for the role."
+    },
+    {
+      "prompt": "It's 1:15 PM and you're 2 sales behind pace. Your pod leader asks you to cover another brand's inbox through lunch. How should you handle it?",
+      "choices": [
+        "Skip lunch and grind — shortening your break to catch up is expected.",
+        "Push back — Revryze actively discourages shortening lunch to grind harder, and coverage should fall to someone else. Take the lunch.",
+        "Take lunch silently but resent it.",
+        "Cover the inbox but bill the time as overtime."
+      ],
+      "correctIndex": 1,
+      "explanation": "The culture section says shortening your lunch to grind more is actively discouraged and to push back if asked to cover a second brand through lunch. Reps who burn out stop selling — the rule exists to protect output, not coddle reps."
+    },
+    {
+      "prompt": "A rep in your pod consistently closes 30+ memberships a week, loves being on the phones, and says she has no interest in managing people. Which career track is she on, and is that a problem?",
+      "choices": [
+        "She has to eventually move to pod leader — there's no path for ICs long-term.",
+        "She's on the IC track, which is explicitly supported — top ICs earn more than most sales managers, and the two-track model was built for reps like her.",
+        "She's stuck — Revryze only promotes into management.",
+        "She should be reassigned to a support role since she refuses to lead."
+      ],
+      "correctIndex": 1,
+      "explanation": "Revryze is explicitly a two-track company: IC track and pod-leader track. Top ICs out-earn most managers, and the training is the same for both — only the coaching expectations differ. Forcing her into leadership would destroy her output."
+    },
+    {
+      "prompt": "You notice an untouched lead in a shared list owned by a rep who's been out sick for three days. The lead came in yesterday. What does Craig's #1 rule tell you to do?",
+      "choices": [
+        "Leave it — it's not your book of business, so it's not your sale.",
+        "Ping the rep's personal phone to wake her up.",
+        "Work the lead — leads are books of business that get managed or lost, and an untouched lead sitting is exactly how another rep earns that commission.",
+        "Escalate to HR that the rep is out of compliance."
+      ],
+      "correctIndex": 2,
+      "explanation": "The #1 rule is 'Your leads are your book of business. Manage them or someone else will.' If a lead sits untouched, another rep will close that sale and earn the commission — that's the explicit mechanic, not a workaround."
+    },
+    {
+      "prompt": "A new rep is shocked that her first commission check was withheld at what looks like a 40% tax rate. What's the correct framing?",
+      "choices": [
+        "Revryze is taking extra — escalate to payroll.",
+        "Commissions are taxed at a higher automatic withholding rate because payroll doesn't know her actual bracket; she often gets some back at tax time, and she should consult a CPA for her numbers.",
+        "Commissions are always taxed at 40% — that's the IRS rule for sales reps.",
+        "Revryze can help her file her taxes to reduce the withholding."
+      ],
+      "correctIndex": 1,
+      "explanation": "The tax reality section is clear: withholding is automatic and higher because it doesn't know her bracket, she often gets some back at tax time, and Revryze cannot give tax advice. Any answer that implies Revryze handles the tax problem is wrong."
+    },
+    {
+      "prompt": "A relaunch client asks why their engagement is priced differently from the $30–40k pre-launch fee. How do you explain the relaunch model?",
+      "choices": [
+        "Relaunch is cheaper because it's easier — same team, less work.",
+        "Relaunch is priced in 50-member blocks at $6,000 per block as a pay-as-you-go model, built for locations that are already open but underperforming.",
+        "Relaunch is priced hourly.",
+        "Relaunch clients get the same fixed fee but pay it monthly."
+      ],
+      "correctIndex": 1,
+      "explanation": "Relaunch is explicitly a 50-member-block model at $6,000/block, pay-as-you-go — designed for open-but-underperforming locations, not new openings. The structure is different from pre-launch precisely because the situation is different."
+    },
+    {
+      "prompt": "You're asked in an interview-style call what 'selling a tree to a lumberjack' means as a Revryze north star. What's the closest-to-canonical answer?",
+      "choices": [
+        "You should be able to sell anything to anyone regardless of fit.",
+        "You use high-pressure tactics to overcome any resistance.",
+        "You learn the product, investigate the customer, adapt in the moment, and close — it's a craft, not a script.",
+        "You follow the script word-for-word until the lead breaks."
+      ],
+      "correctIndex": 2,
+      "explanation": "The north-star quote reframes the bar: learn the product, investigate the customer, adapt, close. Revryze explicitly calls it a craft instead of a script. Pressure-selling and script-reading are the opposite of the stated north star."
+    },
+    {
+      "prompt": "A new rep asks why the training document is written to be brand-agnostic instead of focused on their specific first client. What's the strategic reason?",
+      "choices": [
+        "The company hasn't finished writing the brand-specific guides yet.",
+        "New brands get added to the pipeline continuously as the company scales, so the training applies to every brand, not just one — knowing how to learn any brand is the career skill.",
+        "Legal requires brand-agnostic training documents.",
+        "The founder prefers abstract writing."
+      ],
+      "correctIndex": 1,
+      "explanation": "The doc explicitly calls out that new brands are added continuously as Revryze scales, which is why everything is written brand-agnostic. The transferable skill is 'how to learn any brand,' not memorizing one menu."
+    }
+  ]
+}

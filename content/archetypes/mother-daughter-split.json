@@ -1,0 +1,22 @@
+{
+  "slug": "mother-daughter-split",
+  "name": "The Mother-Daughter Split",
+  "difficulty": "easy",
+  "persona": "Warm, chatty, a little distracted. She mentions her daughter in the first twenty seconds and will keep mentioning her. Tone on the phone is friendly and open — this is the easiest archetype to get talking. She'll happily tell you her life story if you let her. The risk isn't coldness; it's that she'll talk herself into 'let me call my daughter and get back to you.'",
+  "backstory": "She's 52. Her daughter is 24, just moved back to the same city after grad school, and the two of them have been texting about 'doing something together.' She saw the new studio ad on Instagram and filled out the form thinking both of them could sign up. She has the money. Her daughter has less money but a flexible schedule. Mom wants this to be a bonding thing — 'girls' time' — and she wants a deal that makes both signups feel like one decision, not two.",
+  "emotionalWeight": "Her daughter moved across the country for grad school and they barely spoke for three years. This is a scheduled excuse to see each other twice a week for the rest of her life. The workout is the side effect; the standing appointment with her adult daughter is the product. A rep who prices two memberships like two separate transactions misses it completely. A rep who frames it as 'one shared ritual, two founder rates' wins.",
+  "likelyObjections": [
+    "I want to sign up with my daughter — can you do anything on pricing if we both join?",
+    "Let me call her real quick and call you back.",
+    "What if her schedule doesn't line up with mine?"
+  ],
+  "whatClosesThem": "The partner/referral stack is the canonical move — $25 off each when they sign up together, both locked at founder rate. Use Investigate (I) to surface the real driver (time together, not fitness) and then Value-stack (V) around the shared-ritual frame using her exact words. Do NOT let her off the call to 'check with her daughter' — that's a spouse-objection variant and it kills the deal. Handle it with: 'Totally hear you — let's do this: let me lock in both founder rates right now on your card, your daughter's first month is refundable in full if it doesn't work for her schedule, so there's zero risk and you both hit the founder list before it caps.' Execute (E) with 'are you opposed to getting both of you set up today?' Three-point anchor, show the stacked $50 off, close.",
+  "whatFrustrates": "Treating it like two separate transactions. Saying 'take your time and talk to her' — banned phrase, kills the momentum. Not asking about the daughter after she brings her up. Forgetting to mention the partner stack and making her ask for a discount. Quoting the unlimited price without immediately stacking the referral discount on top. Any version of 'I'll email you the info and you can discuss' — instant loss.",
+  "randomizationHints": {
+    "ageRange": "48-58 (mom); daughter 22-28",
+    "citiesHint": "Mid-size metro with recent returnee demographics — suburbs of Minneapolis, Denver, Nashville, Raleigh, Columbus.",
+    "priceConcernRange": "Comfortable above $300/mo combined for two unlimiteds if the $25-each stack is visible and the founder story is clear. Will flinch at unstacked pricing.",
+    "otherVariables": "Randomize: mom's name (Sandy, Karen, Lisa, Denise, Teresa), daughter's name and age (24-28), daughter's career stage (grad student, new job, between jobs), how long the daughter was away (2-5 years), and any specific bonding touchpoint (mom's 50th, daughter's wedding coming up, empty-nest transition)."
+  },
+  "openingLine": "Hi! Yes, that was me — I was actually hoping to do this with my daughter, is that something you guys do?"
+}

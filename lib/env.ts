@@ -13,21 +13,46 @@ const envSchema = z.object({
   ALLOWED_EMAIL_DOMAIN: z.string().default('revryze.com'),
 });
 
-const parsed = envSchema.safeParse(process.env);
+type Env = z.infer<typeof envSchema>;
 
-if (!parsed.success) {
-  const issues = parsed.error.issues.map((i) => `  ${i.path.join('.')}: ${i.message}`).join('\n');
-  throw new Error(
-    `Invalid environment variables. Check your .env file against .env.example.\n${issues}`,
-  );
+let cached: Env | null = null;
+
+function resolve(): Env {
+  if (cached) return cached;
+  const parsed = envSchema.safeParse(process.env);
+  if (!parsed.success) {
+    const issues = parsed.error.issues.map((i) => `  ${i.path.join('.')}: ${i.message}`).join('\n');
+    throw new Error(
+      `Invalid environment variables. Check your .env file against .env.example.\n${issues}`,
+    );
+  }
+  cached = parsed.data;
+  return cached;
 }
 
-export const env = parsed.data;
+/**
+ * Lazy env accessor — validates on first property access, not at module import.
+ * This lets `next build` traverse route handlers without a populated .env.
+ */
+export const env = new Proxy({} as Env, {
+  get(_target, prop) {
+    const e = resolve();
+    return e[prop as keyof Env];
+  },
+});
 
-export const superAdminEmails = new Set(
-  env.SUPER_ADMIN_EMAILS.split(',')
-    .map((e) => e.trim().toLowerCase())
-    .filter(Boolean),
-);
+let superAdminCache: Set<string> | null = null;
+export function getSuperAdminEmails(): Set<string> {
+  if (superAdminCache) return superAdminCache;
+  superAdminCache = new Set(
+    resolve()
+      .SUPER_ADMIN_EMAILS.split(',')
+      .map((e) => e.trim().toLowerCase())
+      .filter(Boolean),
+  );
+  return superAdminCache;
+}
 
-export const allowedEmailDomain = env.ALLOWED_EMAIL_DOMAIN.toLowerCase();
+export function getAllowedEmailDomain(): string {
+  return resolve().ALLOWED_EMAIL_DOMAIN.toLowerCase();
+}

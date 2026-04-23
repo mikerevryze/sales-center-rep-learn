@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "drive-framework",
+  "questions": [
+    {
+      "prompt": "A lead hears your full pitch, sounds interested, then says 'this is a lot to spend — let me think about it.' Running the DRIVE backward as a diagnostic, which step did you most likely skip?",
+      "choices": [
+        "D — Disarm (opener was too pushy).",
+        "R — Reserve the close (you never got the upfront contract on price, so the call stalled there).",
+        "V — Value-stack (you didn't describe the product well enough).",
+        "E — Execute (you never asked to close)."
+      ],
+      "correctIndex": 1,
+      "explanation": "The module states explicitly: stalled at price = you skipped R, the upfront contract. The Reserve step frames the discount as contingent on a mutual 'fit' decision before the pitch starts, which eliminates most end-of-call pricing objections."
+    },
+    {
+      "prompt": "You open a cold call with 'Hey, is now a good time to talk?' The lead says 'not really' and hangs up. What's the core mistake?",
+      "choices": [
+        "You should have said your full title before asking.",
+        "You should have waited until afternoon.",
+        "'Is now a good time?' is a trained brush-off trigger — every lead's reflex answer is no. Use time-reciprocity instead: 'I don't have much time either — give me 90 seconds.'",
+        "You should have led with the price first."
+      ],
+      "correctIndex": 2,
+      "explanation": "'Is now a good time?' is a banned phrase and the module flags it as a trained brush-off trigger. The fix is time-reciprocity: match their urgency, lower the ask, and gate to 90 seconds. The problem is the phrasing, not the timing."
+    },
+    {
+      "prompt": "You're at the close and you say: 'So, do you want to go ahead and sign up today?' The lead says 'let me think about it.' What's the more disruptive canonical close you should have used?",
+      "choices": [
+        "'Would you like to buy this today?'",
+        "'Sounds good, I'll email you the info.'",
+        "'Take your time and let me know.'",
+        "'Are you opposed to getting set up today?'"
+      ],
+      "correctIndex": 3,
+      "explanation": "The magic question is 'Are you opposed to getting set up today?' — it's unusually phrased, which disrupts the automatic 'let me think about it' reflex and makes it easier for the lead to not be opposed than to actively agree. 'I'll email you info' and 'take your time' are both banned phrases."
+    },
+    {
+      "prompt": "In the Investigate step, a lead tells you she wants to 'get in shape.' You nod and start pitching the unlimited tier. What principle did you violate?",
+      "choices": [
+        "The 60/40 listen ratio — you were talking too much.",
+        "The three-point price anchor.",
+        "The why-chain: 'get in shape' is the stated goal, not the emotional motivation. You must keep asking why until you hit the real weight (doctor's orders, a milestone birthday, a spouse's concern).",
+        "The upfront contract."
+      ],
+      "correctIndex": 2,
+      "explanation": "Most pitches die because the rep stopped at the stated goal. The why-chain surfaces the emotional motivation underneath — 'my doctor told me I have to,' 'I turn 40 in six months' — which becomes your closing ammunition at Execute. Without it, you're pitching to a surface goal."
+    },
+    {
+      "prompt": "You present the founder pricing like this: 'Our call-exclusive rate is $109/month.' The lead shrugs. What structural mistake did you make?",
+      "choices": [
+        "You led with the lowest number — the three-point price anchor requires opening price and standard founder price FIRST so the call-exclusive feels earned.",
+        "$109 is too low.",
+        "You should have emailed the price.",
+        "You should have offered a payment plan."
+      ],
+      "correctIndex": 0,
+      "explanation": "The three-point anchor is: opening price (what they pay if they wait), standard founder price (what anyone else on this list gets), call-exclusive price (what I can do right now). The first two exist to make the third feel earned. Leading with the lowest number destroys the anchor."
+    },
+    {
+      "prompt": "A lead spends the first ten minutes of the call telling you about her back pain, her desk job, and her husband turning 50. At the close, you say: 'Let me recommend the unlimited based on general founder activity.' What did you miss?",
+      "choices": [
+        "You should have used her exact words against her — cite back pain, desk job, husband's birthday — in the tier recommendation. You took notes for a reason.",
+        "You should have recommended four-session instead.",
+        "You should have closed in silence.",
+        "You should have offered an email."
+      ],
+      "correctIndex": 0,
+      "explanation": "Take verbatim notes during Investigate so you can use the lead's exact words at Execute — it's the single most under-used technique in sales. Generic recommendations feel scripted; recommendations that cite HER words feel like a match she can't easily deny."
+    },
+    {
+      "prompt": "You deliver the Reserve-the-close line correctly: 'If we both agree this is a fit by the end of the call, I can save you more on our founding memberships. Is that fair?' Why does this specific phrasing work?",
+      "choices": [
+        "It's a legal disclosure required by the state.",
+        "It buys you an extra 90 seconds to pitch.",
+        "It lets you skip the Investigate step.",
+        "It gets their first yes, frames the close as mutual (not coercive), makes the discount contingent on buy-in (not pushback), and reserves permission to present a price later."
+      ],
+      "correctIndex": 3,
+      "explanation": "The Reserve step does four things in one sentence: harvests their first yes, frames the discount as mutual via 'if we both agree,' makes the save contingent on buy-in rather than pressure, and pre-authorizes you to quote price at the end. Skipping it is the #1 reason calls stall at pricing."
+    },
+    {
+      "prompt": "You wrap the close correctly and the lead says 'Yes, let's do it.' What's the single biggest mistake reps make in the next 30 seconds?",
+      "choices": [
+        "Asking about payment timing.",
+        "Re-pitching, re-justifying, or introducing a new feature — one more feature can talk them out of it. Stop selling, get the card, hold the silence.",
+        "Thanking them too warmly.",
+        "Confirming their email address."
+      ],
+      "correctIndex": 1,
+      "explanation": "Once the lead says yes, stop talking about the product. Re-pitching or adding features can un-sell the sale; silence is your friend. Move to the card, confirm name/email/billing, close the ticket — don't re-open the evaluation."
+    },
+    {
+      "prompt": "Your pod leader reviews a call with you and says 'Run the DRIVE. Which step did you miss?' The lead kept asking you to email pricing info. What's the self-diagnosis?",
+      "choices": [
+        "You skipped D — your opener was weak.",
+        "You skipped I — you didn't investigate deeply enough.",
+        "You skipped E — you never actually asked to close, so the lead kept trying to offload the decision to email.",
+        "You skipped V — your value-stack was unclear."
+      ],
+      "correctIndex": 2,
+      "explanation": "Per the DRIVE diagnostic, 'they keep asking you to email info' = you skipped E (you didn't actually ask to close). 'I'll email you info' is a banned substitute for a close; when you don't drive to a close, the lead fills the vacuum by asking for an email as an exit ramp."
+    },
+    {
+      "prompt": "You've made your tier recommendation and you want the lowest-friction yes. Which of these phrasings follows the canonical framing?",
+      "choices": [
+        "'Do you want the unlimited?'",
+        "'Are you going to take the unlimited?'",
+        "'You should probably just take the unlimited.'",
+        "'Based on what you said, I'd recommend the unlimited — are you opposed to that option?'"
+      ],
+      "correctIndex": 3,
+      "explanation": "The canonical framing questions are 'Does it not make sense to...?' / 'Is it not worth...?' / 'Are you opposed to...?' — it's easier to not be opposed than to actively agree, so you harvest the yes at lower friction. Direct yes/no asks invite a reflex no."
+    }
+  ]
+}

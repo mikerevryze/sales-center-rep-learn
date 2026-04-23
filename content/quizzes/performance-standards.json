@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "performance-standards",
+  "questions": [
+    {
+      "prompt": "It's 10:45 AM on a Tuesday and you still have 4 untouched leads sitting in your NEW LEAD bucket. What should you do in the next 15 minutes?",
+      "choices": [
+        "Dial and text all 4 before 11 AM so the NEW LEAD section is empty — speed-to-lead on fresh leads is the single highest-leverage action you can take.",
+        "Text all 4 now and dial them this afternoon once your current cadence is done.",
+        "Leave them — you'll get to them after your morning power-dial block.",
+        "Ask your pod leader to reassign them since you're clearly overloaded."
+      ],
+      "correctIndex": 0,
+      "explanation": "The 11 AM rule says New Leads must be empty by 11 AM — one dial and one text, minimum, on each. Texting only or deferring defeats the point, which is to force the right behavior: speed-to-lead on fresh leads is your single highest-leverage action."
+    },
+    {
+      "prompt": "A rookie rep finishes week one with 6 sales and tells you she's worried she's in the wrong job. What's the most accurate response?",
+      "choices": [
+        "She should probably talk to HR about exiting before week two.",
+        "She's behind — average rookies hit 25 in week one.",
+        "She needs to shorten her lunch breaks to catch up.",
+        "Week one is realistically 7–11 sales and the first calls are awkward by design — don't let week-one discomfort convince her she's in the wrong job. Ramp climbs through weeks 6–8 when 25+ becomes routine."
+      ],
+      "correctIndex": 3,
+      "explanation": "The ramp expectation for week 1 is explicitly 7–11 sales, and the module calls out that week-one discomfort is not a signal to quit. 25+/week doesn't become routine until weeks 6–8 — pushing her to skip lunch contradicts the culture rule on breaks."
+    },
+    {
+      "prompt": "You live-dial a Pacific-time lead and get no answer at 4:30 PM your time. You're on Eastern. What's the correct next action?",
+      "choices": [
+        "Leave a manual voicemail explaining who you are and what you do.",
+        "Keep redialing every 10 minutes until they pick up.",
+        "Hang up with no voicemail — manual VMs tank callback rates; batch the no-answer into an end-of-day VM drop instead.",
+        "Text them 'Is now a good time?' to confirm availability."
+      ],
+      "correctIndex": 2,
+      "explanation": "The rule is to never leave a voicemail manually — missed calls without VMs get returned more often than those with them. VM drops are batched end-of-day via automation. Redialing repeatedly burns the lead, and 'is now a good time?' is a banned phrase."
+    },
+    {
+      "prompt": "You end the day with 3 unread SMS in your inbox because they came in while you were on a long call. What's the expectation?",
+      "choices": [
+        "Clear all 3 before logging off — zero unread at end of day, no exceptions.",
+        "Leave them for tomorrow — fresh eyes are better.",
+        "Mark them read and move on without responding.",
+        "Reply only if they look high-intent."
+      ],
+      "correctIndex": 0,
+      "explanation": "The text rule is explicit: zero unread at end of day, no exceptions, and be the last person to send. Even a 'no thanks' gets a polite closing text so you own the last word. Marking unread without replying violates both rules."
+    },
+    {
+      "prompt": "You just finished a rough call where a lead hung up on you mid-pitch. What should you do in the next 60 seconds?",
+      "choices": [
+        "Go take a 20-minute walk to shake it off.",
+        "Vent in the team chat about the lead being rude.",
+        "Relisten to the call immediately before making another dial.",
+        "Ask yourself what question you missed and what you learned, then get back on the phone inside 60 seconds."
+      ],
+      "correctIndex": 3,
+      "explanation": "The post-rough-call self-talk is 'what question did I miss, what did I learn?' — then back on the phone inside 60 seconds. Walks are for between dial blocks, not after every bad call. Venting and immediate self-review stall momentum."
+    },
+    {
+      "prompt": "It's Saturday at 8:15 AM and you want to power through your West Coast list. Why is this a violation of the weekend rules?",
+      "choices": [
+        "Weekend calling is banned entirely.",
+        "You should only call East Coast on weekends.",
+        "Earliest weekend call is 9 AM local time, with 10 AM as the sweet spot — 8:15 AM local is too early and will hurt your brand.",
+        "Weekends require a pod leader's written approval."
+      ],
+      "correctIndex": 2,
+      "explanation": "Weekend calling is optional and capped at 2–3 hours, with 9 AM local as the earliest and 10 AM as the sweet spot. Calling at 8:15 AM local violates the time-zone rule and makes you the person the lead didn't want a call from."
+    },
+    {
+      "prompt": "A rep is rolling into week 4 and tells you she still feels nervous on every call and is reading from her notes. Which part of the confidence curve is this, and what's the honest read?",
+      "choices": [
+        "She's in the normal 'five clicks less nervous' weeks 3–4 zone — knows the pitch but still in her head. Weeks 5–6 are when she'll start asking real questions and disagreeing with leads.",
+        "She's broken — by week 4 reps should be fully automatic.",
+        "She should be a pod leader candidate already.",
+        "She needs to restart the training from module 1."
+      ],
+      "correctIndex": 0,
+      "explanation": "Weeks 3–4 are explicitly the 'five clicks less nervous, knows the pitch, still in her head' phase of the confidence curve. The pitch doesn't become automatic until week 8+. Her ramp is on track, not broken."
+    },
+    {
+      "prompt": "Your weekly call-review habit requires you to pull three of your own calls. Which mix teaches you the most?",
+      "choices": [
+        "Three wins so you can replicate what worked.",
+        "Three losses so you know exactly what to fix.",
+        "One win and two losses — losses reveal gaps, and the one win anchors what already works.",
+        "Three random calls chosen by your pod leader."
+      ],
+      "correctIndex": 2,
+      "explanation": "The self-review spec is explicitly one win and two losses per week. Losses are where the improvement lives; the single win anchors what's working. All-wins teaches nothing new; all-losses erodes confidence."
+    },
+    {
+      "prompt": "A lead tells you your Tier 2 pricing sounds high. You start the response with 'I totally understand...' Why is this a problem on a performance-standards basis?",
+      "choices": [
+        "'I totally understand' is a banned phrase — it sounds trained, and it violates the voice expectation. A sincere one-word ack like 'Gotcha' plus a question performs measurably better.",
+        "It's too long to say on the phone.",
+        "It's grammatically incorrect.",
+        "Leads don't like the word 'totally.'"
+      ],
+      "correctIndex": 0,
+      "explanation": "'I totally understand' is on the banned-phrase list because it signals script-delivery and puts the lead on guard. Replace with a single sincere word then a question. The rule isn't stylistic — it's measured against actual close rates."
+    },
+    {
+      "prompt": "Your rolling four-week average is 22 memberships a week: 30, 14, 26, 18. Your manager asks if you're on track. What's the most honest answer?",
+      "choices": [
+        "No — week two was 14 and that's a failure.",
+        "No — every week must be 25 or higher.",
+        "Yes — any average above 10 is acceptable.",
+        "Yes — the target is 25/week but what matters is the rolling four-week average; 22 is close and some weeks you'll hit 30 and some 14, and both are normal."
+      ],
+      "correctIndex": 3,
+      "explanation": "The target is 25/week measured on a rolling four-week average. The module explicitly says some weeks you'll hit 30, some 14, and both are normal. 22 is slightly under target but within the expected variance — not a failure and not weekly pass/fail."
+    }
+  ]
+}

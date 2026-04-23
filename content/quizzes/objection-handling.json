@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "objection-handling",
+  "questions": [
+    {
+      "prompt": "A lead says 'I need to think about it.' What's the canonical first move before any takeaway?",
+      "choices": [
+        "'Take your time — reach out when you're ready.'",
+        "'I totally understand — want me to email you info?'",
+        "'What specifically do you need to think about? Because you already told me [restate their stated goal], and what I'm offering solves exactly that. Walk me through what's holding you back.'",
+        "Agree and move on — never push a thinker."
+      ],
+      "correctIndex": 2,
+      "explanation": "The canonical handle reflects their own stated goal back at them and asks what's specifically in the way — surfacing the objection behind the objection. 'Take your time,' 'I totally understand,' and 'I'll email you info' are all banned phrases that surrender the close."
+    },
+    {
+      "prompt": "A lead says 'I need to check with my spouse.' You respond with the canonical handle: 'Completely hear you — I check with mine too. However: what if they said no?' The lead goes silent for 8 seconds. What do you do?",
+      "choices": [
+        "Fill the silence by apologizing for the intensity of the question.",
+        "Offer to email them info instead.",
+        "Quickly pivot to pricing to move past the awkwardness.",
+        "Hold the silence — do not rescue them from it. The silence is doing the work; the answer that surfaces is usually the real objection (usually money)."
+      ],
+      "correctIndex": 3,
+      "explanation": "The module is explicit: 'Do not rescue them from it.' The silence after the spouse question surfaces the real objection — usually money. 'I check with my spouse' almost always means 'it's more than I wanted to spend,' and the silence is how you get there."
+    },
+    {
+      "prompt": "A lead says 'I want to try it first before committing.' How do you reframe the founding membership itself AS the trial?",
+      "choices": [
+        "'Sorry, we don't do trials — it's membership or nothing.'",
+        "'The founder membership IS the trial — you're charged once, there's a grace-period refund if you don't love it, and the rate is lower than what anyone will ever pay after opening. If you walk in day one and hate it, you're out. Zero risk — and it comes with a rate lock nobody off the street will get.'",
+        "'Take your time — try a drop-in class instead.'",
+        "'Let me email you a free-class pass.'"
+      ],
+      "correctIndex": 1,
+      "explanation": "The founder-as-trial reframe uses the grace-period refund as 'zero risk' plus the rate lock as the upside. 'Take your time' is banned, emailing a pass surrenders the close, and rejecting trials outright loses the lead — the move is to redefine what trial means."
+    },
+    {
+      "prompt": "A lead says 'I'm already doing Club Pilates four times a week.' What's the move that uses the information they just gave you as closing ammunition?",
+      "choices": [
+        "'Club Pilates is a worse product — let me explain why.'",
+        "'I'll email you a feature comparison sheet.'",
+        "'Okay — you already like this kind of training. Then I'm curious why you filled out our form. People don't fill out forms for places they're fully happy with. What's missing at Club Pilates?' Then layer social proof once they tell you.",
+        "'Fair enough — reach out if anything changes.'"
+      ],
+      "correctIndex": 2,
+      "explanation": "The handle flips the objection: they filled out YOUR form for a reason, so surface what's missing at the competitor. Then attribute criticism to the crowd ('I've been hearing...') rather than bashing directly. Disparaging the competitor directly lowers your credibility; emailing a comparison surrenders the close."
+    },
+    {
+      "prompt": "A lead says 'you're not even open yet — why would I sign up now?' What does the module say about this objection's difficulty?",
+      "choices": [
+        "People who raise the opening-date objection are almost always easy to close — they're telling you the only thing holding them back is a detail you can eliminate in one sentence about zero risk and price going up after opening.",
+        "It's the hardest objection — most leads who raise it don't close.",
+        "It requires escalation to a pod leader.",
+        "It's a disqualifying signal — close lost immediately."
+      ],
+      "correctIndex": 0,
+      "explanation": "The module explicitly says these leads are almost always easy to close — they've just named the single thing holding them back, and you eliminate it in one sentence: no charge until opening + grace-period refund + price goes up X% at open = genuinely zero risk to lock in now."
+    },
+    {
+      "prompt": "A lead has resisted twice. You're at the takeaway ladder. Which sequence matches the canonical three-stage escalation?",
+      "choices": [
+        "Walk-away first, then medium, then light.",
+        "Skip directly to walk-away after the first resistance.",
+        "Hold on every stage until they say yes.",
+        "Light takeaway (restate upside, ask one last question) → medium takeaway ('maybe this isn't the right fit right now — we'll be here when you're ready, fair?') → walk-away ('I appreciate your time. Have a great day.') — and mean it."
+      ],
+      "correctIndex": 3,
+      "explanation": "The takeaway ladder escalates in stages rather than fighting on the same objection. Walk-away is not a bluff — and when it lands, sometimes they call back, putting you in the strongest possible position. Skipping stages or refusing to walk both violate the pattern."
+    },
+    {
+      "prompt": "You've handled a lead through three objections and they're still not closing, but genuinely close. What's the fresh-voice close?",
+      "choices": [
+        "Keep grinding solo — ego matters.",
+        "Offer a 30% discount to close it yourself.",
+        "Close lost the lead and move on.",
+        "Hand off to another rep or your manager: 'You know what — let me grab my manager real quick. She's great at these. One second.' A fresh voice lands handles yours won't because you've become adversarial in the lead's head."
+      ],
+      "correctIndex": 3,
+      "explanation": "The fresh-voice close trades ego for commission — you've become adversarial in the lead's head, so a new voice can land the handle. The module literally says 'Ego is cheap. Sales are not.' Premature close-lost and free-money discounts both violate the playbook."
+    },
+    {
+      "prompt": "A lead asks 'can you call me back later?' What's the canonical response?",
+      "choices": [
+        "'Sure, when works?' and schedule the callback.",
+        "'Sure, no problem. Before I do — I don't want to waste your time or mine. If you give me 90 seconds right now, I can see if this is even a fit. If it's not, I won't call you again. Fair?' Accept the callback in word, negotiate 90 seconds in deed.",
+        "'I totally understand, take your time.'",
+        "'I'll email you info to review instead.'"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'call me back' handle accepts the callback verbally but negotiates 90 seconds now — most leads give it. Scheduling the callback outright loses the highest-intent moment you'll ever have. 'I totally understand,' 'take your time,' and 'I'll email you info' are all banned patterns."
+    },
+    {
+      "prompt": "You send a pricing text and get dead air for 24 hours. What's the canonical utility text to break the silence?",
+      "choices": [
+        "'Hey [Name] — how do you want to proceed?'",
+        "'Just checking in — any thoughts?'",
+        "'Did you get my last message?'",
+        "'No pressure — reach out whenever.'"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Hey [Name] — how do you want to proceed?' is the all-purpose utility text — direct, short, puts decision in their hands. It gets responses at roughly double the rate of 'just checking in.' No-pressure language signals speed doesn't matter, which contradicts the urgency rule."
+    },
+    {
+      "prompt": "A lead becomes hostile and demands to speak to a manager. What tone does the module prescribe for the takeaway?",
+      "choices": [
+        "Defensive and apologetic.",
+        "Sarcastic — match their energy.",
+        "'I'm fine either way.' Professional takeaway that re-inserts urgency without begging: 'It sounds like maybe this isn't the right moment. The price is [higher price] when we open. If anything changes and you want to save before opening, feel free to reach out. Have a great rest of your day.'",
+        "Transfer the call to a manager immediately."
+      ],
+      "correctIndex": 2,
+      "explanation": "The tone for hostile leads is 'I'm fine either way' — not desperate, not sarcastic. You re-insert urgency (price goes up) without begging. Apologizing cedes status; sarcasm burns the brand; immediate manager-transfer rewards hostility with escalation."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "ghl-mastery",
+  "questions": [
+    {
+      "prompt": "You build a Smart List filtered by Owner = Your Name and you're seeing half the leads you expected. What's almost certainly wrong?",
+      "choices": [
+        "Your pipeline stage filter is too narrow.",
+        "You need to add Follower = Your Name with OR logic — legacy leads where you're the follower (not owner) don't show up otherwise, and without both you'll miss half your book.",
+        "The location filter is excluding some leads.",
+        "You need to clear your browser cache."
+      ],
+      "correctIndex": 1,
+      "explanation": "The Owner+Follower rule is explicit: set both, leave logic as OR. Without both filters you'll miss half your book — this is how leads go missing and other reps close your sales. The fix is always the follower filter, not a cache clear."
+    },
+    {
+      "prompt": "You just live-dialed 10 leads and got no answer. It's 4:55 PM. What's the right play — and what should you absolutely not do?",
+      "choices": [
+        "Leave manual voicemails on all 10 for maximum coverage.",
+        "Redial each one three more times before logging off.",
+        "Leave them for tomorrow's power-dial session.",
+        "Fire an end-of-day VM drop workflow, optionally paired with a follow-up SMS, and never leave a manual VM — missed calls without VMs get returned more often than missed calls with them."
+      ],
+      "correctIndex": 3,
+      "explanation": "The critical rule is 'never leave a voicemail manually' — only scheduled VM drops go out, and they batch at end of day. Manual VMs tank callback rates. Redialing burns the lead; deferring violates the speed-to-lead principle."
+    },
+    {
+      "prompt": "A lead texts 'are you a bot?' mid-conversation. What's the canonical transparency script?",
+      "choices": [
+        "'No, I'm a real person.'",
+        "'Yes — we use AI to help manage text volume. We have over 300 people texting us on a daily basis right now and we couldn't get back to everyone in a timely manner without it. But I'm a real person when you call.'",
+        "'That's a weird question.'",
+        "Ignore the question and move on to pricing."
+      ],
+      "correctIndex": 1,
+      "explanation": "The transparency script frames busy-ness as proof the brand is wanted — status-raising disclosure, not defensive. Lying about the bot destroys trust when they catch you; ignoring the question signals guilt. 'We're busy because we're in demand' is the lift."
+    },
+    {
+      "prompt": "You want to VM-drop 150 leads before lunch. What's the operational rule?",
+      "choices": [
+        "Drop all 150 at once so you're done.",
+        "Drop 50 now and 100 tomorrow.",
+        "Drip in batches of 20 every 5 minutes — drop 100+ at once and you'll get 20 callbacks in five minutes that you can't answer all of.",
+        "Never drop more than 10 at a time."
+      ],
+      "correctIndex": 2,
+      "explanation": "Drip mode exists for exactly this reason — a 150-drop all at once generates a wave of simultaneous callbacks that one rep can't handle, burning the leads who get voicemail instead of you. 20 every 5 minutes is the module-specified cadence."
+    },
+    {
+      "prompt": "A lead is in the CALL SCHEDULED stage. Which of these actions is explicitly forbidden?",
+      "choices": [
+        "Updating their contact notes.",
+        "Texting them a confirmation the morning of.",
+        "Power-dialing them as part of a daily blitz — they have a booked time, calling twice is rude, and all automations pause at this stage.",
+        "Logging a no-show disposition after the call."
+      ],
+      "correctIndex": 2,
+      "explanation": "The module says don't power-dial CALL SCHEDULED leads — they have a booked time; calling twice is rude. VM drops are also forbidden here. Automations pause at this stage on purpose — the human-only interaction is the scheduled call itself."
+    },
+    {
+      "prompt": "It's Friday afternoon. Your Close Won count for the week is 14. What's the sale-audit rule?",
+      "choices": [
+        "Celebrate — GHL is the source of truth.",
+        "Ask your pod leader to audit for you.",
+        "Cross-reference every Close Won against the POS system — if you moved a lead to Close Won but never pressed 'Confirm' on the agreement in the POS, you created a ghost sale. No payment actually processed. Reach back out immediately on any mismatch.",
+        "Audit only the highest-priced sales."
+      ],
+      "correctIndex": 2,
+      "explanation": "The weekly Friday sale-audit catches ghost sales — where GHL says Close Won but no payment processed in the POS. Every Close Won gets cross-referenced. Skipping the audit or auditing selectively means unpaid sales on your commission sheet and a refund situation when the lead never gets charged."
+    },
+    {
+      "prompt": "A lead's conversation with the Conversation AI bot has gone off-rail — it quoted a wrong price. What's the correct intervention?",
+      "choices": [
+        "Escalate to engineering to fix the bot globally.",
+        "Delete the conversation.",
+        "Move the lead to Close Lost.",
+        "Click the sparkle icon in the lead's text screen, set the bot to Inactive for that lead, and correct the conversation yourself. Skim your book at least twice a day to catch this proactively."
+      ],
+      "correctIndex": 3,
+      "explanation": "You are still the owner — the bot doesn't replace rep attention. Skim text threads at least twice a day, and when the bot goes off-brand/off-pricing/off-tone, turn it off for that lead via the sparkle icon and correct. Deleting the thread or close-losting the lead destroys a fixable situation."
+    },
+    {
+      "prompt": "You want to send a one-off price snippet but the lead just asked a specific question you haven't addressed. What's the rule?",
+      "choices": [
+        "Slow down and type a custom response — a wrong-snippet send is worse than no snippet. Always scan the context before sending.",
+        "Fire the snippet anyway — snippets save time.",
+        "Fire two snippets to cover more ground.",
+        "Send the snippet and then type a follow-up."
+      ],
+      "correctIndex": 0,
+      "explanation": "A wrong-snippet send is explicitly worse than no snippet — it signals you weren't actually reading. Always scan context first. Snippets are for consistent repeatable sends (pricing recap, grace-period explainer); they're not a substitute for attention to the actual conversation."
+    },
+    {
+      "prompt": "You're about to send a text and GHL offers to dial/text from a local-area-code number matching the lead's. What's the recommended move and why?",
+      "choices": [
+        "Always use your original number for consistency.",
+        "Only use local numbers for Close Won follow-ups.",
+        "Ask your pod leader each time before choosing.",
+        "Use the local number whenever available — local numbers get 2–3x higher answer rates than out-of-area numbers."
+      ],
+      "correctIndex": 3,
+      "explanation": "Local-area-code numbers get 2–3x higher answer rates — always use when available. The consistency argument works against you here: strangers-area-code = ignored call. Asking pod leader every time is a waste of their time on a rule-driven decision."
+    },
+    {
+      "prompt": "A new rep asks if she should build her own workflow to automate a rehash campaign she has in mind. What's the rule?",
+      "choices": [
+        "Go ahead — experimentation is encouraged.",
+        "Do not build your own automations without pod leader approval — broken workflows can text the entire list, and Sub-Account settings are off-limits unless explicitly instructed.",
+        "Build it in a test account first.",
+        "Use the Admin tab — it's safer."
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'what not to do in GHL' section is explicit: no DIY automations without pod leader approval, don't send mass texts without a filter, don't touch Sub-Account settings or Admin tabs. A broken workflow can text every lead in the sub-account. When in doubt, ask."
+    }
+  ]
+}

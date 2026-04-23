@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "roleplay-and-certification",
+  "questions": [
+    {
+      "prompt": "You're running Drill 1 (The Cold Call) with your pod leader. What are the five pass criteria you must hit?",
+      "choices": [
+        "Canonical opener from memory, upfront contract in first 60 seconds, three Investigate questions including 'what initially got you interested?', three-point price anchor, and close with 'are you opposed to getting set up today?'",
+        "Deliver the opener, close on price, and book a follow-up.",
+        "Follow the exact script word-for-word without improvisation.",
+        "Run through the nine product-knowledge data points verbally."
+      ],
+      "correctIndex": 0,
+      "explanation": "Drill 1 pass criteria are exactly these five: canonical opener (from memory, no reading), upfront contract in first 60 seconds, at least three Investigate questions including the magic 'what initially got you interested?', three-point price anchor, and the magic close. Missing any one fails the drill."
+    },
+    {
+      "prompt": "In Drill 2 (Objection Circle), your pod leader tells you: 'You failed.' You think you did fine. She says 'You said I totally understand three times.' Why is that an auto-fail?",
+      "choices": [
+        "It's grammatically redundant.",
+        "'I totally understand' is banned — the drill's explicit pass criteria include 'no I totally understand' because it sounds scripted and breaks the 'sincere one-word ack plus question' pattern.",
+        "It eats up too much time.",
+        "The pod leader just doesn't like that phrase."
+      ],
+      "correctIndex": 1,
+      "explanation": "Drill 2 pass criteria explicitly include 'no I totally understand.' The phrase signals trained delivery and puts the lead on guard. The approved replacement is a sincere one-word ack ('Gotcha') then a question. This isn't preference — it's a measured close-rate issue."
+    },
+    {
+      "prompt": "Your pod leader assigns you The Bodybuilder on Recovery as your Drill 3 archetype. What's his canonical profile, and what's the right tier move?",
+      "choices": [
+        "Big guy, lifts heavy, curious about Pilates for recovery only — wants to discount the unlimited and buy 4-session only. The right move is to meet him on 4-session, not force the unlimited.",
+        "Emotionally loaded lead who needs empathy plus a firm close.",
+        "Hostile and pushy — requires a professional takeaway.",
+        "Competitor defector who needs the hive-mind social proof."
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bodybuilder on Recovery is explicitly described: big guy, lifts heavy, Pilates for recovery only, wants to discount unlimited and buy 4-session. Forcing unlimited mismatches the investigation; matching his stated use case (4-session as recovery tool) is the appropriate tier move."
+    },
+    {
+      "prompt": "Drill 4 (Self-Listen Review) asks you to pull three of your own calls. What mix and what must you demonstrate?",
+      "choices": [
+        "Three wins; demonstrate your best pitch.",
+        "Two losses and one win; articulate which DRIVE step you executed well, which you skipped or rushed, and one specific thing you'll do differently next call — without your pod leader telling you.",
+        "Three random calls; your pod leader diagnoses.",
+        "Three losses; demonstrate emotional resilience."
+      ],
+      "correctIndex": 1,
+      "explanation": "Drill 4 is explicitly two losses + one win. Pass criteria: you can articulate your own gaps without your pod leader telling you. This is the primary feedback loop for pitch improvement — self-diagnosis is the skill being tested, not call-selection or resilience."
+    },
+    {
+      "prompt": "A new brand gets added to your pod mid-engagement. What does the brand-specific certification compress to, and what's the first-day production expectation?",
+      "choices": [
+        "Full Phase 1 + Phase 2 all over again at full duration.",
+        "No certification required — jump straight to calls.",
+        "The brand-specific cert compresses to a 30-minute session and first-day production expectation is halved.",
+        "A full day of shadowing before any live calls."
+      ],
+      "correctIndex": 2,
+      "explanation": "Mid-engagement brand additions compress brand-specific cert to a 30-minute session, with first-day production halved. The generic cert doesn't repeat because it's brand-agnostic; the halved expectation exists so reps can ramp without burning leads."
+    },
+    {
+      "prompt": "Your manager plays back your call and says 'What's their why?' What is she diagnosing?",
+      "choices": [
+        "You skipped the opener.",
+        "Your three-point price anchor was in the wrong order.",
+        "You forgot to use the utility text 'how do you want to proceed?'",
+        "You didn't investigate deeply enough — the why-chain didn't reach the emotional motivation under the stated goal."
+      ],
+      "correctIndex": 3,
+      "explanation": "The coaching shorthand 'What's their why?' is a diagnosis for shallow Investigate — you stopped at the stated goal instead of chasing the emotional weight underneath. That emotional weight is closing ammunition; without it the pitch feels generic and the close stalls."
+    },
+    {
+      "prompt": "Your manager says 'Reserve the close' during a call review. What specific mistake is she pointing to?",
+      "choices": [
+        "You didn't close hard enough at the end.",
+        "You skipped the upfront contract — the 'if we both agree this is a fit, I can save you more on our founding memberships. Is that fair?' move before the pitch started.",
+        "You double-booked the lead.",
+        "You forgot to ask for a referral."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Reserve the close' = 'you skipped the upfront contract.' The R step in DRIVE pre-authorizes the price discussion and harvests the first yes of the call — skipping it is the single most common reason calls stall at pricing. The phrase is a diagnosis, not a close-style comment."
+    },
+    {
+      "prompt": "A new rep says 'I hate listening to my own calls — it's embarrassing.' What's the growth-mindset response from the module?",
+      "choices": [
+        "Embarrassing yourself IS the learning mechanism. First call is awkward, tenth is less, hundredth is automatic. Listen to your worst calls — that's where the next improvement lives.",
+        "She's right — self-review isn't for everyone. Skip it.",
+        "Only listen to your wins so you don't lose confidence.",
+        "Have a pod leader listen for you and report back."
+      ],
+      "correctIndex": 0,
+      "explanation": "The growth-mindset section is explicit: embarrassing yourself is the learning mechanism. The discomfort is where the improvement comes from. Skipping self-review or listening only to wins kills the primary feedback loop; outsourcing the review defeats the point — she needs to hear herself."
+    },
+    {
+      "prompt": "On the final north star: 'Sales is communication. You're not pushing, you're ___.' Fill in the canonical word.",
+      "choices": [
+        "persuading.",
+        "closing.",
+        "matching — matching their stated goals to our offer, their emotional weight to our value proposition, their price comfort to our tier structure. If the match is real, the sale closes itself.",
+        "convincing."
+      ],
+      "correctIndex": 2,
+      "explanation": "The final north star reframes the job as matching, not pushing. Match stated goals to offer, emotional weight to value prop, price comfort to tier. The match-based frame is why the DRIVE emphasizes Investigate so hard — if you don't find the match, there's nothing to close on."
+    },
+    {
+      "prompt": "The weekly practice rhythm after certification has four components. Which of these is NOT one of them?",
+      "choices": [
+        "Friday 1-1 with pod leader: half pitch practice, half objection circle.",
+        "Weekly objection circle (group, 15 min), one objection per rep, rotate.",
+        "Monthly call review (team, 30 min): one rep brings a recorded call they lost, team diagnoses together.",
+        "Daily full-team roleplay session (60 min) where every rep runs DRIVE in front of everyone."
+      ],
+      "correctIndex": 3,
+      "explanation": "The four canonical rhythm components are Friday 1-1, weekly group objection circle, monthly team call review, and ongoing self-review (three own calls per week). Daily team roleplay isn't in the module — the weekly/monthly cadence is calibrated so reps have time to actually sell."
+    }
+  ]
+}

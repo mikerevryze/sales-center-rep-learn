@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "lead-management",
+  "questions": [
+    {
+      "prompt": "You sit down at your desk at 9 AM. Your pipeline has 6 NEW LEADs, 3 PITCHED from yesterday, 4 NO SHOWs from the weekend, and 20 ATTEMPTING TO CONTACT. What do you work first?",
+      "choices": [
+        "ATTEMPTING TO CONTACT — biggest list, biggest opportunity.",
+        "NEW LEAD — clear by 11 AM first, then PITCHED (highest-intent unclosed), then CONNECTED/BRUSHED OFF, then NO SHOW, then ATTEMPTING TO CONTACT in the late afternoon.",
+        "NO SHOW — they already booked once, so easiest to recover.",
+        "PITCHED first — they're the warmest."
+      ],
+      "correctIndex": 1,
+      "explanation": "The follow-up priority order is NEW LEAD (cleared by 11 AM) → PITCHED → CONNECTED/BRUSHED OFF → NO SHOW → ATTEMPTING TO CONTACT. Speed-to-lead on NEW LEAD is the highest-leverage action of your day; ATTEMPTING is the long tail and works best in late afternoon."
+    },
+    {
+      "prompt": "A lead came in 3 days ago and the assigned rep hasn't touched it. You see it in a shared list. What does the book-of-business ownership rule say?",
+      "choices": [
+        "Leave it — it's her book.",
+        "Wait 7 days before touching it.",
+        "Ping the assigned rep and ask for permission.",
+        "Fair game — 3+ days untouched means any rep can pick it up in a shared list and that sale becomes theirs. The moral-obligation-to-close principle reinforces this: ad dollars have been spent, leaving it cold is leaving money on the floor."
+      ],
+      "correctIndex": 3,
+      "explanation": "The ownership rule: untouched 2 days = still theirs; 3+ days = fair game. Plus the moral-obligation-to-close principle — ad dollars generated the lead; leaving it cold is leaving money on the floor. This is how new reps break out early."
+    },
+    {
+      "prompt": "A lead filled out the form at 2:47 AM. What time should they get their manual dial + text, and what's already happened?",
+      "choices": [
+        "2:47 AM local — the automated text goes out and you dial immediately.",
+        "Whenever the rep logs in, regardless of time zone.",
+        "The automated first-touch text fires overnight; the rep dials and texts manually at 9 AM local the next morning.",
+        "48 hours later once the lead has had time to reflect."
+      ],
+      "correctIndex": 2,
+      "explanation": "After-hours leads are hit by the automated first-touch text and get the rep's manual dial + text at 9 AM local the next morning. Fresh leads convert at 10–20x the rate of 48-hour-old leads; waiting longer than the next morning burns the speed-to-lead premium."
+    },
+    {
+      "prompt": "A lead explicitly texts 'stop, I'm not interested.' What should you do next?",
+      "choices": [
+        "Close Lost immediately — explicit no is disqualification, and dead leads clogging the pipeline hurts your close rate on the rest.",
+        "Keep dialing weekly — persistence wins.",
+        "Add them to a mass-text list for revival next quarter.",
+        "Send 'how do you want to proceed?' again to try one more time."
+      ],
+      "correctIndex": 0,
+      "explanation": "Explicit 'no' or 'stop' is a disqualify — Close Lost same day. You're not being rude; you're freeing yourself to work leads who can actually buy. Continuing to touch them after an explicit stop is also a compliance issue, not just a prioritization one."
+    },
+    {
+      "prompt": "You and another rep both have a live lead who's stuck on a spousal objection. You've exhausted your handles. What's the tag-team policy?",
+      "choices": [
+        "Keep grinding solo — commissions don't split.",
+        "Transfer the lead silently without telling them.",
+        "Tag-teaming is encouraged: 'Hey, let me grab my colleague — she's better on this objection than I am.' Commissions split if it's a true handoff and the manager arbitrates.",
+        "Close Lost and move on."
+      ],
+      "correctIndex": 2,
+      "explanation": "Tag-teaming is explicitly encouraged for stuck leads — a fresh voice lands handles yours won't. Commissions split on a true handoff, manager arbitrates. Ego-grinding alone while a colleague could close it violates the 'ego is cheap, sales are not' principle."
+    },
+    {
+      "prompt": "Your PITCHED pipeline has 18 leads from the last week. Which is the correct rehash approach?",
+      "choices": [
+        "Leave them — they already heard the pitch.",
+        "Close Lost them after 7 days.",
+        "Send them a mass-text discount code.",
+        "These are your highest-intent unclosed leads. Hit them on 48-hour cadence with a fresh-voice call, a direct 'how do you want to proceed?' text, a takeaway like 'Tier 1 filling up,' and a VM drop as part of weekly mass touch."
+      ],
+      "correctIndex": 3,
+      "explanation": "PITCHED is the most valuable pipeline stage — leads who heard the full DRIVE and didn't buy have already engaged. They just need one more thing: new voice, new angle, new discount, or a spouse's approval. 48-hour cadence with multi-channel touches is the rehash recipe."
+    },
+    {
+      "prompt": "A lead has liked your social posts and opened every text for 10 days but has never replied. How does the module classify this, and what do you do?",
+      "choices": [
+        "Treat as Close Lost — no reply means no interest.",
+        "Treat like PITCHED — they're engaged, just lurking. Send a direct text asking what's holding them back. Don't let silence become your answer.",
+        "Wait 30 more days to see if they reply.",
+        "Add to ATTEMPTING TO CONTACT."
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'Like But Don't Reply' section: treat these leads like PITCHED because they're engaged but lurking. Direct text — don't let silence become your answer. Close Lost abandons a warm lead; waiting 30 days lets the lead cool off completely."
+    },
+    {
+      "prompt": "At an open house event, a lead has been chatting with you for 15 minutes and seems interested but distracted. What's the event protocol?",
+      "choices": [
+        "Keep pushing for the close standing up.",
+        "Email them a follow-up and close lost if they don't reply.",
+        "Book them for a phone call later — 10+ minute conversations close better as scheduled calls with full attention than standing floor conversations.",
+        "Hand them off to another rep on the floor."
+      ],
+      "correctIndex": 2,
+      "explanation": "Event protocol: walk-up sign-ups close on the spot, but 10+ minute conversations book for a phone call later. Standing conversations don't close as well as scheduled calls — distraction dilutes the DRIVE execution. Emailing surrenders the follow-up."
+    },
+    {
+      "prompt": "You're rescheduling a no-show. Which phrase does the module prescribe for the reschedule text to avoid a false-urgency problem?",
+      "choices": [
+        "'When can you talk immediately?'",
+        "'I have a slot in 10 minutes — can you jump on?'",
+        "'Take your time and let me know.'",
+        "'At your suggested time' — use this to avoid creating a false impression of urgency during the reschedule."
+      ],
+      "correctIndex": 3,
+      "explanation": "The phrase 'at your suggested time' is specifically called out for rescheduling — it avoids the false-impression-of-urgency issue while still booking. 'Take your time' is a banned phrase because it signals speed doesn't matter, contradicting every other text rule."
+    },
+    {
+      "prompt": "You have 60 unworked leads in your NEW LEAD bucket at 10:15 AM and no way to clear by 11 AM. What does the module say to do?",
+      "choices": [
+        "Power through and skip lunch.",
+        "Hide the backlog from your pod leader so you don't look bad.",
+        "Tell your pod leader — they'll redistribute. Hiding a backed-up book hurts the team; so does claiming you can handle more than you can. Communication first.",
+        "Mark everything as 'attempted' without actually dialing."
+      ],
+      "correctIndex": 2,
+      "explanation": "Capacity communication is explicit: tell your pod leader when overloaded — they redistribute. Hiding a backed-up book hurts the team; claiming false capacity hurts the team. Skipping lunch violates the culture rule; faking touches is fraud and the 11 AM rule exists to prevent exactly that."
+    }
+  ]
+}

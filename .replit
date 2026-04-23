@@ -1,0 +1,19 @@
+# Replit configuration for Revryze Sales Training
+# https://docs.replit.com/programming-ide/configuring-repl
+
+run = "pnpm dev"
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+NODE_ENV = "development"
+
+[deployment]
+run = ["pnpm", "start"]
+build = ["pnpm", "build"]
+deploymentTarget = "autoscale"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "universal-sales-patterns",
+  "questions": [
+    {
+      "prompt": "A lead says 'I'm not sure — we're not even open yet, why would I sign up now?' You're currently in Tier 2. What's the tightest tier-urgency response?",
+      "choices": [
+        "'Take your time — there's no rush.'",
+        "'I'll email you a pricing sheet to think about.'",
+        "'Everyone else is signing up — don't miss out.'",
+        "'We're in Tier 2 right now. When we fill up, the price goes up 35%, not down. There's no reward for waiting — only cost.'"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tier-driven urgency creates a deadline independent of the opening date — 'we're not open yet' stops being a reason to wait when the price only moves one direction. Specific numbers (35%) stick harder than vague 'prices will be higher,' and 'take your time' + 'I'll email' are both banned phrases."
+    },
+    {
+      "prompt": "A lead at a Pilates brand says she's uncertain about switching from her current studio. You want to deploy hive-mind social proof. Which response follows the canonical 4-step structure?",
+      "choices": [
+        "'Our studio is objectively better — here's why.'",
+        "'Don't worry, everyone switches eventually.'",
+        "'I get that — I've talked to over three dozen people from [Competitor] who said the exact same thing, and that's exactly why they left and came to us. You're not alone, and if you made the switch, you definitely wouldn't be the first.'",
+        "'Let me email you some testimonials.'"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hive-mind social proof is: name the hesitation (validate), say dozens of others had it, tell them what those others decided, pivot to close. People don't want to be first and don't want to be last — they want to be with the herd. Disparaging the competitor directly or emailing testimonials both break the pattern."
+    },
+    {
+      "prompt": "A lead mentions her wife also does Pilates. What's the canonical partner-stack move?",
+      "choices": [
+        "Close the lead and email info for the wife later.",
+        "Refer the wife to a different rep.",
+        "Offer a 50% discount if they both sign up today.",
+        "'I'll lock you in at [founder rate], throw in $25 off your first month, and when she signs up she gets the same — effectively [lower rate] each. Does that work?' Close both at once if possible."
+      ],
+      "correctIndex": 3,
+      "explanation": "The partner stack: $25 off for the lead, same for the partner, close both together when possible. Emailing for the partner surrenders the second sale; referring out gives the commission to another rep; 50% discounts destroy the commission economics the module explicitly warns against."
+    },
+    {
+      "prompt": "A lead is close but price is the last sticking point. You decide to use the manager-ask theater. What's the critical sequencing move that reps get wrong?",
+      "choices": [
+        "Get the buy-in FIRST — 'if I get another $10 off approved, will you sign up with me today?' — and only AFTER they say yes, mute and count to 15. The discount is gated on a same-call signup.",
+        "Mute the line first, then ask for buy-in when you come back.",
+        "Just drop the discount immediately without any theater.",
+        "Tell the lead the manager is on vacation, so the discount can't be approved."
+      ],
+      "correctIndex": 0,
+      "explanation": "The manager-ask theater only works if you lock the yes before the ask — 'I'm sticking my neck out; if I come back with approval and you don't sign up, I look bad.' Dropping the discount without the buy-in gives it away for free; muting before the buy-in skips the move entirely."
+    },
+    {
+      "prompt": "A rep offers a $10 discount on every call 'just to sweeten the deal.' What's the economic reality the module explicitly calls out?",
+      "choices": [
+        "Discounts don't affect commission — they come out of the client's pocket.",
+        "Discounts are fully reimbursed by Revryze at quarter-end.",
+        "Every $10 comes out of your commission at scale. Forty sales at $10 off is a $400 hole in your paycheck — use the call-exclusive price as a last-resort close, not a first-round offer.",
+        "Reps are expected to discount every call for volume."
+      ],
+      "correctIndex": 2,
+      "explanation": "Discount economics are personal — it's your paycheck. The rule is to use the call-exclusive price as a last resort, and when you do use it, make the lead feel it cost you something. Leading with a discount destroys both your commission and the psychological weight of the concession."
+    },
+    {
+      "prompt": "A lead says 'I just want to try it first — I'm not ready for a full membership.' She's resistant to unlimited AND to a four-session. What back-pocket option do you reach for, and how do you frame it?",
+      "choices": [
+        "'Let me email you our class schedule so you can drop in.'",
+        "'Sorry, we don't offer trials.'",
+        "'Come to a free class and we'll talk after.'",
+        "'I can set you up with a discounted credit plan — eight classes for the first month. It's essentially a paid trial, and if you love it we upgrade you to unlimited at the founder rate. If not, your grace-period refund still applies.' Use her comfort word — 'credits,' not 'membership.'"
+      ],
+      "correctIndex": 3,
+      "explanation": "The eight-session is back-pocket — don't advertise it, bring it out for leads allergic to unlimited. Reframe as 'discounted credit plan' because many leads are fine with 'bundle/credits' but not 'membership.' The mechanics are identical; the word matters."
+    },
+    {
+      "prompt": "A lead asks about drop-in rates. They're $40 per class. Your four-session founder rate is $89. What's the canonical math-beats-narrative reframe?",
+      "choices": [
+        "'Drop-ins are a waste — just get the membership.'",
+        "'Two drop-ins a month is $80. Our four-session founder rate is $89. For $9 more you get double the classes and lock your founder rate forever.'",
+        "'I'll email you a comparison chart.'",
+        "'Everyone chooses the membership eventually.'"
+      ],
+      "correctIndex": 1,
+      "explanation": "Math beats narrative every time. The drop-in reframe quantifies exactly what they're giving up: $9 gets them double the classes plus the lifetime founder rate lock. Vague dismissals and emailed comparisons don't move price-sensitive leads."
+    },
+    {
+      "prompt": "You've deployed the manager-silence move — muted for 10 seconds, come back with 'I can knock another $10 off.' The lead says 'let me think about it.' What does the module say should have happened before the mute?",
+      "choices": [
+        "You should have offered $20 off instead.",
+        "You should have muted for 30 seconds instead of 10.",
+        "You should have locked the buy-in first: 'If I get that approved, we're signing up right now, right?' The silence and the save only work if the commitment is pre-wired.",
+        "You should have emailed the discount instead."
+      ],
+      "correctIndex": 2,
+      "explanation": "The manager-silence move requires the commitment-first phrasing: 'If I get that approved, we're signing up right now, right?' Without the lock, you give away the discount for a 'think about it' — which is why the buy-in is gated on a same-call signup."
+    },
+    {
+      "prompt": "Mid-call you realize the lead qualifies for Tier 1 pricing she didn't expect — maybe via a referral credit. What's the canonical way to deliver the win?",
+      "choices": [
+        "Quietly apply the discount without mentioning it.",
+        "'Let me pull that up — actually, it looks like I can get you Tier 1 pricing on that. That saves you an extra $[X] a month.' Pause, let her register the save, then close.",
+        "Tell her the discount but immediately launch into the next pitch.",
+        "Email her the updated pricing and call back tomorrow."
+      ],
+      "correctIndex": 1,
+      "explanation": "No one complains when you hand them a better deal than they expected — but make them feel the win. Pause, let the save register, then close. Quietly applying the discount wastes the psychological lift; emailing surrenders the close."
+    },
+    {
+      "prompt": "A lead texts back after a mass outbound and says 'how much is it?' You want to convey urgency on price movement. Which phrasing sticks hardest per the module?",
+      "choices": [
+        "'Prices will be higher after opening.'",
+        "'Pricing varies — let me know a time to chat.'",
+        "'I'll send you a PDF.'",
+        "'It's our Tier 2 rate right now — your rate will be 50% higher at opening.'"
+      ],
+      "correctIndex": 3,
+      "explanation": "The 50%-higher text framing rule: specific numbers feel true and stick harder than vague 'prices will be higher.' Quantify the jump. PDFs and vague replies surrender urgency, and 'let me know a time' is a weak CTA compared to a concrete price anchor."
+    }
+  ]
+}

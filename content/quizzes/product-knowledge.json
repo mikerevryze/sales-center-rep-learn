@@ -1,0 +1,115 @@
+{
+  "moduleSlug": "product-knowledge",
+  "questions": [
+    {
+      "prompt": "A new brand just landed in your pod this morning. You have 72 hours to be live on calls. What's the first action on the onboarding checklist?",
+      "choices": [
+        "Start dialing leads immediately to learn by doing.",
+        "Ask the pod leader to record a full training video for you.",
+        "Read the onboarding email and log in to every system listed before anything else.",
+        "Build a custom automation in GHL for the new brand."
+      ],
+      "correctIndex": 2,
+      "explanation": "Step 1 of the onboarding checklist is to read the onboarding email and log in to every system listed. Dialing cold without access or data is how bad calls happen, and building automations without pod-leader approval is explicitly forbidden."
+    },
+    {
+      "prompt": "A lead on a live call says 'the website shows $159 a month — why are you quoting $139?' How should you read and respond to this?",
+      "choices": [
+        "Recognize this as a buying signal — the website is intentionally priced above the phone price, and you're now handing them a discount they can only get through you.",
+        "Apologize for the discrepancy and honor the website price.",
+        "Say you'll email them to clarify the pricing.",
+        "Escalate to the pod leader before quoting anything."
+      ],
+      "correctIndex": 0,
+      "explanation": "The website-vs-phone rule is that the website price is always deliberately higher than the phone price — the live conversation is the cheapest way to sign up. A lead raising this is telling you they've done the research and they're ready; you lean into the discount, not apologize for it."
+    },
+    {
+      "prompt": "You're pitching a medical/specialist brand and the lead asks a specific clinical question about a contraindication. What's the canonical move?",
+      "choices": [
+        "Answer based on what you've read — prospects buy confidence.",
+        "Stop the pitch and tell them to call their doctor before booking.",
+        "Refuse to continue until a clinician joins the line.",
+        "Say 'great question — let me CC our studio nurse, she'll handle that one directly. In the meantime, let's get your spot reserved,' and keep the sale moving."
+      ],
+      "correctIndex": 3,
+      "explanation": "For medical/specialist brands you're a sales rep, not a clinician — specific medical questions escalate to the nurse, but the sale keeps moving. Guessing damages trust and creates liability; stalling the sale hands the lead to a competitor."
+    },
+    {
+      "prompt": "The sales team just sold out Tier 1 at a new location. What actually happens to the pricing structure the next morning?",
+      "choices": [
+        "Tier 1 reopens at a higher price.",
+        "All pricing freezes until the location opens.",
+        "Tier 2 becomes the new entry-level founder rate, and Tier 3 becomes the new top. Leads who waited now pay more.",
+        "The website price drops to match the now-gone Tier 1."
+      ],
+      "correctIndex": 2,
+      "explanation": "The tier system is designed to create urgency independent of the opening date: when Tier 1 sells out, Tier 2 becomes the entry point and Tier 3 becomes the top. Leads who sit on the fence pay more; that's the mechanic you communicate on every call."
+    },
+    {
+      "prompt": "A lead asks 'what if I hate it after you open?' on a brand with the standard founding-membership architecture. What's the cleanest zero-risk frame?",
+      "choices": [
+        "'You can cancel anytime with 30 days notice.'",
+        "'You'll love it — everyone does.'",
+        "'Let me email you our refund policy.'",
+        "'You're charged once before opening, no enrollment fee, no contract, and there's a grace-period refund after we open — if you hate it, you get your money back. Zero risk.'"
+      ],
+      "correctIndex": 3,
+      "explanation": "The canonical founding-membership frame hits: one charge before opening, no enrollment fee, no contract, grace-period refund = literally zero risk. 'Take your time' pattern answers and 'I'll email you' are both banned — they surrender the close."
+    },
+    {
+      "prompt": "Which of the following is NOT one of the nine data points you must answer for every brand before going live?",
+      "choices": [
+        "The founder's personal net worth.",
+        "Nearest competitor, and why their customers are leaving.",
+        "Grace-period refund policy after opening.",
+        "Typical demographic — age, income bracket, lifestyle."
+      ],
+      "correctIndex": 0,
+      "explanation": "The founder's net worth is not one of the nine data points — those are tiers/prices, session counts, UVP, nearest competitor, grace-period refund, cancellation policy, referral mechanic, demographic, and opening date. Knowing the competitor and demographic is load-bearing for tailoring the pitch."
+    },
+    {
+      "prompt": "A service-tiered brand (like pet grooming) prices by service complexity. The lead asks what it costs. What's the canonical disclosure pattern?",
+      "choices": [
+        "Quote only the base rate — upsell at the appointment.",
+        "Quote only the premium rate so they're pleasantly surprised if lower.",
+        "Tell them you'll email the price list.",
+        "Disclose the full level 1–3 range upfront, explain that complexity drives the tier, and confirm the final level gets assessed on arrival."
+      ],
+      "correctIndex": 3,
+      "explanation": "Service-tiered brands require the full level 1–3 range upfront so nothing comes as a shock — this removes the bait-and-switch feeling when the real price is quoted later. Quoting only one end misleads the lead, and 'I'll email you' is a banned substitute for a close."
+    },
+    {
+      "prompt": "A lead asks when their first monthly charge will hit. The location opens June 1st and they're signing up today (February 10th). When should you tell them their first monthly will process?",
+      "choices": [
+        "March 10th — 30 days after sign-up.",
+        "June 1st — the day the location opens.",
+        "July 1st — approximately 30 days after the location opens, not 30 days after sign-up.",
+        "Today — the founder charge starts the billing cycle immediately."
+      ],
+      "correctIndex": 2,
+      "explanation": "Under the founding-membership architecture, the one-time founder charge happens at signup, but the first monthly typically lands 30 days AFTER the location opens. Getting this wrong creates a refund situation and destroys trust on day one."
+    },
+    {
+      "prompt": "A knowledgeable prospect drops a niche industry buzzword you don't recognize mid-call. What's the correct play given the Expert-Voice rule?",
+      "choices": [
+        "Bluff — prospects buy confidence, not credentials, so make something up.",
+        "Say 'great question — let me get that answer' and come back with it, while continuing to use the right terminology on topics you do know. You have 15 minutes to be dangerous on a new topic.",
+        "Stop the call and google it silently while the lead waits.",
+        "Tell them this is out of your depth and end the call."
+      ],
+      "correctIndex": 1,
+      "explanation": "The Expert-Voice rule is you don't have to BE the expert, you have to SOUND like one — use the right terminology, say 'great question, let me get that' on gaps, and be dangerous within 15 minutes. Bluffing breaks trust; bailing on the call kills the sale."
+    },
+    {
+      "prompt": "A lead signs up in the grace period, walks into class on opening day, hates it, and asks for a refund. What does the product allow and what's your role?",
+      "choices": [
+        "Refunds aren't allowed once they've attended — they signed.",
+        "Refund only half as a retention incentive.",
+        "Tell them to dispute with their credit-card company.",
+        "The grace-period refund policy grants a full refund of the initial founder charge within the defined post-open window — that's the 'zero risk' promise you sold, and it must be honored."
+      ],
+      "correctIndex": 3,
+      "explanation": "The grace-period refund is the foundation of the 'zero risk' pitch — you sold it, so honoring it matters more than any single refund. Partial refunds or CC-dispute-dodges destroy trust with that lead and every peer they talk to."
+    }
+  ]
+}

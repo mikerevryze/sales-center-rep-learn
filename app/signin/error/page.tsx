@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { allowedEmailDomain } from '@/lib/env';
+import { getAllowedEmailDomain } from '@/lib/env';
 
 interface PageProps {
   searchParams: Promise<{ error?: string }>;
@@ -39,7 +39,7 @@ export default async function SignInErrorPage({ searchParams }: PageProps) {
           <CardTitle className="text-destructive">{info?.title ?? 'Sign-in failed'}</CardTitle>
           <CardDescription>
             {error === 'AccessDenied'
-              ? `Only @${allowedEmailDomain} Google accounts can sign in to this platform. If you believe this is a mistake, contact your pod leader.`
+              ? `Only @${getAllowedEmailDomain()} Google accounts can sign in to this platform. If you believe this is a mistake, contact your pod leader.`
               : (info?.body ?? 'Please try again.')}
           </CardDescription>
         </CardHeader>

@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation';
 import { auth } from '@/auth';
 import { SignInButton } from '@/components/auth/sign-in-button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { allowedEmailDomain } from '@/lib/env';
+import { getAllowedEmailDomain } from '@/lib/env';
 
 interface PageProps {
   searchParams: Promise<{ callbackUrl?: string }>;
@@ -23,8 +23,8 @@ export default async function SignInPage({ searchParams }: PageProps) {
           </div>
           <CardTitle className="text-2xl">Revryze Sales Training</CardTitle>
           <CardDescription>
-            Sign in with your <span className="font-semibold">@{allowedEmailDomain}</span> Google
-            account.
+            Sign in with your <span className="font-semibold">@{getAllowedEmailDomain()}</span>{' '}
+            Google account.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
